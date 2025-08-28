@@ -1,6 +1,7 @@
+/* universal */
 .hind-madurai {
-  font-family: "Hind Madurai", sans-serif;
-  font-style: normal;
+    font-family: "Hind Madurai", sans-serif;
+    font-style: normal;
 }
 
 h1 {
@@ -14,11 +15,14 @@ h3 {
 * {
     margin: 0;
 }
+
+
+
+/* navbar */
 .navber {
     display: flex;
     justify-content: space-between;
     margin: 16px 60px;
-
 }
 
 .navber-logo {
@@ -33,12 +37,10 @@ h3 {
     height: 55px;
 }
 
-.navber-text{
+.navber-text {
     font-size: 23px;
     font-weight: 900;
 }
-
-
 
 .navber-btn-section {
     display: flex;
@@ -79,7 +81,7 @@ h3 {
 
 .copy-section {
     padding: 12px 36px;
-border: none;
+    border: none;
     border-radius: 50px;
     color: #FFFFFF;
     background-color: #00A63E;
@@ -87,32 +89,112 @@ border: none;
 
 
 
-
 /*banner*/
-.banner-section{
-    background: linear-gradient(90.00deg, rgba(1.251827359199524, 49.64006805419922, 34.606834411621094, 1),rgba(0, 103, 71, 1) 50%,rgba(1, 50, 35, 1) 100%);
-display: flex;
-flex-direction: column;
-gap: 11px;
-justify-content: center;
-align-items: center;
-color: #FFFFFF;
-padding: 48px 0px;
+.banner-section {
+    background: linear-gradient(90.00deg, rgba(1.251827359199524, 49.64006805419922, 34.606834411621094, 1), rgba(0, 103, 71, 1) 50%, rgba(1, 50, 35, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 48px 0px;
 
 }
 
-.banner-logo{
+.banner-logo {
     width: 92px;
     height: 92px;
-
 }
 
-.banner-highlight-text{
-font-size: 40px;
-font-weight: bold;
+.banner-highlight-text {
+    font-size: 40px;
+    font-weight: bold;
 }
 
-.banner-text{
+.banner-text {
     font-size: 20px;
     font-weight: 600;
+}
+
+
+
+/* card section */
+.card-section {
+    padding: 50px 60px 88px 60px;
+    display: flex;
+    gap: 30px;
+    background-color:  #F5FFF6;
+}
+
+.card-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 75%;
+    gap: 30px;
+}
+
+.cards {
+    border: none;
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF;
+}
+
+.card-imgs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.card-text1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card-text2 {
+    font-size: 18px;
+    color: #5C5C5C;
+}
+
+.card-text3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.card-text4 {
+    font-size: 18px;
+    color: #5C5C5C;
+    background-color: #F2F2F2;
+    padding: 6px 16px;
+    border-radius: 24px;
+
+}
+
+.card-btn-copy {
+    padding: 12px 60px;
+    color: #5C5C5C;
+    border: 1px solid #D4D6D5;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    margin-right: 8px;
+}
+
+.card-btn-call {
+    padding: 12px 65px;
+    border: none;
+    border-radius: 8px;
+    background-color: #00A63E;
+    color: #FFFFFF;
 }
