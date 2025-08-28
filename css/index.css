@@ -124,13 +124,13 @@ h3 {
     padding: 50px 60px 88px 60px;
     display: flex;
     gap: 30px;
-    background-color:  #F5FFF6;
+    background-color: #F5FFF6;
 }
 
 .card-div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 75%;
+    width: 78%;
     gap: 30px;
 }
 
@@ -151,6 +151,11 @@ h3 {
     align-items: center;
 }
 
+.card-img{
+    width: 60px;
+    height: 60px;
+}
+
 .cards-text {
     display: flex;
     flex-direction: column;
@@ -161,6 +166,8 @@ h3 {
 .card-text1 {
     font-size: 24px;
     font-weight: 700;
+    color: #111111;
+
 }
 
 .card-text2 {
@@ -171,6 +178,8 @@ h3 {
 .card-text3 {
     font-size: 32px;
     font-weight: 700;
+    color: #111111;
+
 }
 
 .card-text4 {
@@ -190,6 +199,9 @@ h3 {
     background-color: #FFFFFF;
     margin-right: 8px;
 }
+.card-btn-copy:active{
+    background-color: rgba(92, 92, 92, 0.125);
+}
 
 .card-btn-call {
     padding: 12px 65px;
@@ -197,4 +209,68 @@ h3 {
     border-radius: 8px;
     background-color: #00A63E;
     color: #FFFFFF;
+}
+.card-btn-call:active{
+    background: rgba(0, 166, 61, 0.85);
+}
+
+
+/* history */
+.history {
+    width: 22%;
+    background-color: #FFFFFF;
+    padding: 24px 24px 0 24px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.15);
+}
+
+.history-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.history-title {
+    font-size: 20px;
+font-weight: 500;
+color: #111111;
+}
+
+.clear-btn{
+    padding: 11px 35px;
+    color: #FFFFFF;
+    background-color: #00A63E;
+    font-weight: 600;
+    border: 2px solid #00A63E;
+    border-radius: 50px;
+}
+
+.clear-btn:active{
+    color: #00A63E;
+    background-color: #FFFFFF;
+}
+
+.history-contant{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 16px;
+   margin: 8px 0px;
+   background-color: #f6f6f6;
+   border-radius: 8px;
+  
+}
+
+.history-contant-title{
+    font-size: 18px;
+    font-weight: 600;
+    color: #111111;
+}
+
+.history-contant-number{
+    font-size: 18px;
+    color: #5C5C5C;
 }
