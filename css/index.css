@@ -1,0 +1,118 @@
+.hind-madurai {
+  font-family: "Hind Madurai", sans-serif;
+  font-style: normal;
+}
+
+h1 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+* {
+    margin: 0;
+}
+.navber {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 60px;
+
+}
+
+.navber-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #006747;
+}
+
+.navber-logo-img {
+    width: 55px;
+    height: 55px;
+}
+
+.navber-text{
+    font-size: 23px;
+    font-weight: 900;
+}
+
+
+
+.navber-btn-section {
+    display: flex;
+    align-items: center;
+}
+
+.heart-section {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(65, 255, 107, 0.1);
+    gap: 10px;
+    padding: 11px 36px;
+}
+
+.heart {
+    width: 30px;
+    height: 30px;
+}
+
+.coin-section {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(65, 255, 107, 0.1);
+    gap: 10px;
+    padding: 8px 36px;
+}
+
+.coin {
+    width: 30px;
+    height: 30px;
+}
+
+.copy-section {
+    padding: 12px 36px;
+border: none;
+    border-radius: 50px;
+    color: #FFFFFF;
+    background-color: #00A63E;
+}
+
+
+
+
+/*banner*/
+.banner-section{
+    background: linear-gradient(90.00deg, rgba(1.251827359199524, 49.64006805419922, 34.606834411621094, 1),rgba(0, 103, 71, 1) 50%,rgba(1, 50, 35, 1) 100%);
+display: flex;
+flex-direction: column;
+gap: 11px;
+justify-content: center;
+align-items: center;
+color: #FFFFFF;
+padding: 48px 0px;
+
+}
+
+.banner-logo{
+    width: 92px;
+    height: 92px;
+
+}
+
+.banner-highlight-text{
+font-size: 40px;
+font-weight: bold;
+}
+
+.banner-text{
+    font-size: 20px;
+    font-weight: 600;
+}
