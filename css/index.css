@@ -87,6 +87,58 @@ h3 {
     background-color: #00A63E;
 }
 
+/* navbar mobile */
+@media screen and (max-width: 576px) {
+    .navber {
+        margin: 4px 16px;
+    }
+
+    .navber-logo {
+        gap: 8px;
+    }
+
+    .navber-logo-img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .navber-text {
+        font-size: 12px;
+    }
+
+    .heart-section {
+        margin-right: 8px;
+        border-radius: 20px;
+        gap: 8px;
+        padding: 0px 16px;
+    }
+
+    .heart {
+        width: 16px;
+        height: 16px;
+    }
+
+    .coin-section {
+        margin-right: 8px;
+        border-radius: 20px;
+        gap: 8px;
+        padding: 0px 16px;
+    }
+
+    .coin {
+        width: 16px;
+        height: 16px;
+    }
+
+    .copy-section {
+        padding: 2px 16px;
+        border: none;
+        border-radius: 50px;
+        color: #FFFFFF;
+        background-color: #00A63E;
+    }
+}
+
 
 
 /*banner*/
@@ -117,6 +169,31 @@ h3 {
     font-weight: 600;
 }
 
+/* banner mobile */
+@media screen and (max-width: 576px) {
+    .banner-section {
+        gap: 8px;
+        padding: 16px 0px;
+
+    }
+
+    .banner-logo {
+        width: 46px;
+        height: 46px;
+    }
+
+    .banner-highlight-text {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .banner-text {
+        font-size: 10px;
+        font-weight: 500;
+        text-align: center;
+        padding: 0 16px;
+    }
+}
 
 
 /* card section */
@@ -151,7 +228,7 @@ h3 {
     align-items: center;
 }
 
-.card-img{
+.card-img {
     width: 60px;
     height: 60px;
 }
@@ -199,7 +276,8 @@ h3 {
     background-color: #FFFFFF;
     margin-right: 8px;
 }
-.card-btn-copy:active{
+
+.card-btn-copy:active {
     background-color: rgba(92, 92, 92, 0.125);
 }
 
@@ -210,10 +288,78 @@ h3 {
     background-color: #00A63E;
     color: #FFFFFF;
 }
-.card-btn-call:active{
+
+.card-btn-call:active {
     background: rgba(0, 166, 61, 0.85);
 }
 
+/* cards */
+@media screen and (max-width: 576px) {
+    .card-section {
+        padding: 12px 20px 88px 20px;
+        flex-direction: column;
+    }
+
+    .card-div {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+
+    .cards {
+        border-radius: 8px;
+        padding: 12px;
+        gap: 8px;
+    }
+
+    .card-img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .cards-text {
+        gap: 12px;
+    }
+
+    .card-text1 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .card-text2 {
+        font-size: 12px;
+    }
+
+    .card-text3 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .card-text4 {
+        font-size: 10px;
+        padding: 3px 8px;
+        border-radius: 24px;
+
+    }
+
+    .card-btn-copy {
+        margin: 0 auto;
+        padding: 8px 52px;
+        display: flex;
+        margin-bottom: 8px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-btn-call {
+        padding: 9px 57px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    i.fa-regular.fa-heart {
+        font-size: 18px;
+    }
+}
 
 /* history */
 .history {
@@ -235,11 +381,11 @@ h3 {
 
 .history-title {
     font-size: 20px;
-font-weight: 500;
-color: #111111;
+    font-weight: 500;
+    color: #111111;
 }
 
-.clear-btn{
+.clear-btn {
     padding: 11px 35px;
     color: #FFFFFF;
     background-color: #00A63E;
@@ -248,29 +394,67 @@ color: #111111;
     border-radius: 50px;
 }
 
-.clear-btn:active{
+.clear-btn:active {
     color: #00A63E;
     background-color: #FFFFFF;
 }
 
-.history-contant{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 16px;
-   margin: 8px 0px;
-   background-color: #f6f6f6;
-   border-radius: 8px;
-  
+.history-contant {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 8px 0px;
+    background-color: #f6f6f6;
+    border-radius: 8px;
 }
 
-.history-contant-title{
+.history-contant-title {
     font-size: 18px;
     font-weight: 600;
     color: #111111;
 }
 
-.history-contant-number{
+.history-contant-number {
     font-size: 18px;
     color: #5C5C5C;
+}
+
+/* history monile */
+@media screen and (max-width: 576px) {
+    .history {
+        width: calc(100% - 32px);
+        padding: 8px 16px 0 16px;
+        border-radius: 8px;
+    }
+
+    .history-title {
+        font-size: 16px;
+    }
+
+    .clear-btn {
+        padding: 8px 32px;
+        border-radius: 20px;
+    }
+
+    .history-contant {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px;
+        margin: 8px 0px;
+        background-color: #f6f6f6;
+        border-radius: 8px;
+    }
+
+    .history-contant-title {
+        font-size: 18px;
+        font-weight: 600;
+        color: #111111;
+    }
+
+    .history-contant-number {
+        font-size: 18px;
+        color: #5C5C5C;
+    }
 }
