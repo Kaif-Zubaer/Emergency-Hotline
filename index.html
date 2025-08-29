@@ -28,15 +28,15 @@
             <!-- navber right -->
             <div class="navber-btn-section">
                 <div class="heart-section">
-                    <p style="font-weight: 900; font-size: 20px;">0</p>
+                    <p id="heart-count">0</p>
                     <img class="heart" src="assets/heart.png" alt="">
                 </div>
                 <div class="coin-section">
-                    <p style="font-weight: 900; font-size: 20px;">0</p>
+                    <p id="coin-count">100</p>
                     <img class="coin" src="assets/coin.png" alt="">
                 </div>
                 <div class="copy-section">
-                    <p>Copy</p>
+                    <p><span id="copy-count">0</span> Copy</p>
                 </div>
             </div>
         </nav>
@@ -64,7 +64,7 @@
                         <div>
                             <img class="card-img" src="assets/emergency.png" alt="">
                         </div>
-                        <div>
+                        <div class="heart-click">
                             <i class="fa-regular fa-heart fa-xl" style="color: #5c5c5c;"></i>
                         </div>
                     </div>
@@ -74,13 +74,15 @@
                             <p class="card-text2">National Emergency</p>
                         </div>
                         <div>
-                            <h1 class="card-text3">999</h1>
+                            <h1 class="card-text3 y">999</h1>
                             <p class="card-text4">All</p>
                         </div>
-                        <div>
-                            <button class="card-btn-copy"><i class="fa-solid fa-copy"
-                                    style="color: #5c5c5c; margin-right: 4px;"></i>Copy</button>
-                            <button class="card-btn-call"><i class="fa-solid fa-phone"
+                        <div class="card-btns">
+                            <div class="copy-clicks">
+                                <button class="card-btn-copy"><i class="fa-solid fa-copy"
+                                        style="color: #5c5c5c; margin-right: 4px;"></i>Copy</button>
+                            </div>
+                            <button class="card-btn-call call-btn"><i class="fa-solid fa-phone"
                                     style="color: #ffffff; margin-right: 4px;"></i>Call</button>
                         </div>
                     </div>
@@ -91,7 +93,7 @@
                         <div>
                             <img class="card-img" src="assets/police.png" alt="">
                         </div>
-                        <div>
+                        <div class="heart-click">
                             <i class="fa-regular fa-heart fa-xl" style="color: #5c5c5c;"></i>
                         </div>
                     </div>
@@ -104,9 +106,11 @@
                             <h1 class="card-text3">999</h1>
                             <p class="card-text4">Police</p>
                         </div>
-                        <div>
-                            <button class="card-btn-copy"><i class="fa-solid fa-copy"
-                                    style="color: #5c5c5c; margin-right: 4px;"></i>Copy</button>
+                        <div class="card-btns">
+                            <div class="copy-clicks">
+                                <button class="card-btn-copy"><i class="fa-solid fa-copy"
+                                        style="color: #5c5c5c; margin-right: 4px;"></i>Copy</button>
+                            </div>
                             <button class="card-btn-call"><i class="fa-solid fa-phone"
                                     style="color: #ffffff; margin-right: 4px;"></i>Call</button>
                         </div>
@@ -118,7 +122,7 @@
                         <div>
                             <img class="card-img" src="assets/fire-service.png" alt="">
                         </div>
-                        <div>
+                        <div class="heart-click">
                             <i class="fa-regular fa-heart fa-xl" style="color: #5c5c5c;"></i>
                         </div>
                     </div>
@@ -131,9 +135,11 @@
                             <h1 class="card-text3">999</h1>
                             <p class="card-text4">Fire</p>
                         </div>
-                        <div>
-                            <button class="card-btn-copy"><i class="fa-solid fa-copy"
-                                    style="color: #5c5c5c; margin-right: 4px;"></i>Copy</button>
+                        <div class="card-btns">
+                            <div class="copy-clicks">
+                                <button class="card-btn-copy"><i class="fa-solid fa-copy"
+                                        style="color: #5c5c5c; margin-right: 4px;"></i>Copy</button>
+                            </div>
                             <button class="card-btn-call"><i class="fa-solid fa-phone"
                                     style="color: #ffffff; margin-right: 4px;"></i>Call</button>
                         </div>
@@ -145,7 +151,7 @@
                         <div>
                             <img class="card-img" src="assets/ambulance.png" alt="">
                         </div>
-                        <div>
+                        <div class="heart-click">
                             <i class="fa-regular fa-heart fa-xl" style="color: #5c5c5c;"></i>
                         </div>
                     </div>
@@ -158,9 +164,11 @@
                             <h1 class="card-text3">1994-999999</h1>
                             <p class="card-text4">Health</p>
                         </div>
-                        <div>
-                            <button class="card-btn-copy"><i class="fa-solid fa-copy"
-                                    style="color: #5c5c5c; margin-right: 4px;"></i>Copy</button>
+                        <div class="card-btns">
+                            <div class="copy-clicks">
+                                <button class="card-btn-copy"><i class="fa-solid fa-copy"
+                                        style="color: #5c5c5c; margin-right: 4px;"></i>Copy</button>
+                            </div>
                             <button class="card-btn-call"><i class="fa-solid fa-phone"
                                     style="color: #ffffff; margin-right: 4px;"></i>Call</button>
                         </div>
@@ -172,7 +180,7 @@
                         <div>
                             <img class="card-img" src="assets/emergency.png" alt="">
                         </div>
-                        <div>
+                        <div class="heart-click">
                             <i class="fa-regular fa-heart fa-xl" style="color: #5c5c5c;"></i>
                         </div>
                     </div>
@@ -185,9 +193,11 @@
                             <h1 class="card-text3">109</h1>
                             <p class="card-text4">Help</p>
                         </div>
-                        <div>
-                            <button class="card-btn-copy"><i class="fa-solid fa-copy"
-                                    style="color: #5c5c5c; margin-right: 4px;"></i>Copy</button>
+                        <div class="card-btns">
+                            <div class="copy-clicks">
+                                <button class="card-btn-copy"><i class="fa-solid fa-copy"
+                                        style="color: #5c5c5c; margin-right: 4px;"></i>Copy</button>
+                            </div>
                             <button class="card-btn-call"><i class="fa-solid fa-phone"
                                     style="color: #ffffff; margin-right: 4px;"></i>Call</button>
                         </div>
@@ -199,7 +209,7 @@
                         <div>
                             <img class="card-img" src="assets/emergency.png" alt="">
                         </div>
-                        <div>
+                        <div class="heart-click">
                             <i class="fa-regular fa-heart fa-xl" style="color: #5c5c5c;"></i>
                         </div>
                     </div>
@@ -212,9 +222,11 @@
                             <h1 class="card-text3">106</h1>
                             <p class="card-text4">Govt.</p>
                         </div>
-                        <div>
-                            <button class="card-btn-copy"><i class="fa-solid fa-copy"
-                                    style="color: #5c5c5c; margin-right: 4px;"></i>Copy</button>
+                        <div class="card-btns">
+                            <div class="copy-clicks">
+                                <button class="card-btn-copy"><i class="fa-solid fa-copy"
+                                        style="color: #5c5c5c; margin-right: 4px;"></i>Copy</button>
+                            </div>
                             <button class="card-btn-call"><i class="fa-solid fa-phone"
                                     style="color: #ffffff; margin-right: 4px;"></i>Call</button>
                         </div>
@@ -226,7 +238,7 @@
                         <div>
                             <img class="card-img" src="assets/emergency.png" alt="">
                         </div>
-                        <div>
+                        <div class="heart-click">
                             <i class="fa-regular fa-heart fa-xl" style="color: #5c5c5c;"></i>
                         </div>
                     </div>
@@ -239,9 +251,11 @@
                             <h1 class="card-text3">16216</h1>
                             <p class="card-text4">Electricity</p>
                         </div>
-                        <div>
-                            <button class="card-btn-copy"><i class="fa-solid fa-copy"
-                                    style="color: #5c5c5c; margin-right: 4px;"></i>Copy</button>
+                        <div class="card-btns">
+                            <div class="copy-clicks">
+                                <button class="card-btn-copy"><i class="fa-solid fa-copy"
+                                        style="color: #5c5c5c; margin-right: 4px;"></i>Copy</button>
+                            </div>
                             <button class="card-btn-call"><i class="fa-solid fa-phone"
                                     style="color: #ffffff; margin-right: 4px;"></i>Call</button>
                         </div>
@@ -253,7 +267,7 @@
                         <div>
                             <img class="card-img" src="assets/brac.png" alt="">
                         </div>
-                        <div>
+                        <div class="heart-click">
                             <i class="fa-regular fa-heart fa-xl" style="color: #5c5c5c;"></i>
                         </div>
                     </div>
@@ -266,9 +280,11 @@
                             <h1 class="card-text3">16445</h1>
                             <p class="card-text4">NGO</p>
                         </div>
-                        <div>
-                            <button class="card-btn-copy"><i class="fa-solid fa-copy"
-                                    style="color: #5c5c5c; margin-right: 4px;"></i>Copy</button>
+                        <div class="card-btns">
+                            <div class="copy-clicks">
+                                <button class="card-btn-copy"><i class="fa-solid fa-copy"
+                                        style="color: #5c5c5c; margin-right: 4px;"></i>Copy</button>
+                            </div>
                             <button class="card-btn-call"><i class="fa-solid fa-phone"
                                     style="color: #ffffff; margin-right: 4px;"></i>Call</button>
                         </div>
@@ -280,8 +296,8 @@
                         <div>
                             <img class="card-img" src="assets/Bangladesh-Railway.png" alt="">
                         </div>
-                        <div>
-                            <i id="love" class="fa-regular fa-heart fa-xl" style="color: #5c5c5c; "></i>
+                        <div class="heart-click">
+                            <i id="love" class="fa-regular fa-heart fa-xl" style="color: #5c5c5c;"></i>
                         </div>
                     </div>
                     <div class="cards-text">
@@ -293,9 +309,11 @@
                             <h1 class="card-text3">163</h1>
                             <p class="card-text4">Travel</p>
                         </div>
-                        <div>
-                            <button class="card-btn-copy"><i class="fa-solid fa-copy"
-                                    style="color: #5c5c5c; margin-right: 4px;"></i>Copy</button>
+                        <div class="card-btns">
+                            <div class="copy-clicks">
+                                <button class="card-btn-copy"><i class="fa-solid fa-copy"
+                                        style="color: #5c5c5c; margin-right: 4px;"></i>Copy</button>
+                            </div>
                             <button class="card-btn-call"><i class="fa-solid fa-phone"
                                     style="color: #ffffff; margin-right: 4px;"></i>Call</button>
                         </div>
@@ -314,16 +332,8 @@
                     </div>
                 </div>
                 <!-- history message -->
-                <div class="history-contant-container">
-                    <div class="history-contant">
-                        <div>
-                            <h1 class="history-contant-title">Fire Service Number</h1>
-                            <p class="history-contant-number">999</p>
-                        </div>
-                        <div>
-                            <p>Date</p>
-                        </div>
-                    </div>
+                <div id="history-messege" class="history-contant-container">
+                    
                 </div>
 
             </div>
