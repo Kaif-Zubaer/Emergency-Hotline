@@ -1,9 +1,10 @@
-/* universal */
+/* font */
 .hind-madurai {
     font-family: "Hind Madurai", sans-serif;
     font-style: normal;
 }
 
+/* universal */
 h1 {
     margin: 0;
 }
@@ -16,8 +17,6 @@ h3 {
     margin: 0;
 }
 
-
-
 /* navbar */
 .navber {
     display: flex;
@@ -25,6 +24,7 @@ h3 {
     margin: 16px 60px;
 }
 
+/* navber left */
 .navber-logo {
     display: flex;
     align-items: center;
@@ -43,6 +43,7 @@ h3 {
     line-height: 24px;
 }
 
+/* navbar right */
 .navber-btn-section {
     display: flex;
     align-items: center;
@@ -59,10 +60,10 @@ h3 {
     padding: 11px 36px;
 }
 
-.heart-section p{
-        font-size: 20px;
-        font-weight: 900;
-    }
+.heart-section p {
+    font-size: 20px;
+    font-weight: 900;
+}
 
 .heart {
     width: 30px;
@@ -80,10 +81,10 @@ h3 {
     padding: 8px 36px;
 }
 
-.coin-section p{
-        font-size: 20px;
-        font-weight: 900;
-    }
+.coin-section p {
+    font-size: 20px;
+    font-weight: 900;
+}
 
 .coin {
     width: 30px;
@@ -98,11 +99,11 @@ h3 {
     background-color: #00A63E;
 }
 
-.copy-section p{
-        font-weight: 600;
-    }
+.copy-section p {
+    font-weight: 600;
+}
 
-/* navbar mobile */
+/* navbar mobile responsive*/
 @media screen and (max-width: 576px) {
     .navber {
         margin: 12px 12px;
@@ -128,7 +129,8 @@ h3 {
         gap: 8px;
         padding: 6px 16px;
     }
-    .heart-section p{
+
+    .heart-section p {
         font-size: 16px;
         font-weight: 500;
     }
@@ -145,7 +147,7 @@ h3 {
         padding: 6px 16px;
     }
 
-    .coin-section p{
+    .coin-section p {
         font-size: 16px;
         font-weight: 500;
     }
@@ -162,12 +164,11 @@ h3 {
         color: #FFFFFF;
         background-color: #00A63E;
     }
-    .copy-section p{
+
+    .copy-section p {
         font-weight: 500;
     }
 }
-
-
 
 /*banner*/
 .banner-section {
@@ -179,7 +180,6 @@ h3 {
     align-items: center;
     color: #FFFFFF;
     padding: 48px 0px;
-
 }
 
 .banner-logo {
@@ -187,22 +187,23 @@ h3 {
     height: 92px;
 }
 
+/* banner title */
 .banner-highlight-text {
     font-size: 40px;
     font-weight: bold;
 }
 
+/* banner description */
 .banner-text {
     font-size: 20px;
     font-weight: 600;
 }
 
-/* banner mobile */
+/* banner mobile responsive */
 @media screen and (max-width: 576px) {
     .banner-section {
         gap: 8px;
         padding: 32px 0px;
-
     }
 
     .banner-logo {
@@ -223,8 +224,7 @@ h3 {
     }
 }
 
-
-/* card section */
+/* cards section */
 .card-section {
     padding: 50px 60px 88px 60px;
     display: flex;
@@ -239,6 +239,7 @@ h3 {
     gap: 30px;
 }
 
+/* card */
 .cards {
     border: none;
     border-radius: 16px;
@@ -250,17 +251,20 @@ h3 {
     background-color: #FFFFFF;
 }
 
+/* card image container */
 .card-imgs {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+/* favourite button */
 .card-img {
     width: 60px;
     height: 60px;
 }
 
+/* card details */
 .cards-text {
     display: flex;
     flex-direction: column;
@@ -272,7 +276,6 @@ h3 {
     font-size: 24px;
     font-weight: 700;
     color: #111111;
-
 }
 
 .card-text2 {
@@ -284,7 +287,6 @@ h3 {
     font-size: 32px;
     font-weight: 700;
     color: #111111;
-
 }
 
 .card-text4 {
@@ -293,15 +295,16 @@ h3 {
     background-color: #F2F2F2;
     padding: 6px 16px;
     border-radius: 24px;
-
 }
 
-.card-btns{
+/* card buttons */
+.card-btns {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* copy button */
 .card-btn-copy {
     padding: 12px 60px;
     color: #5C5C5C;
@@ -315,6 +318,7 @@ h3 {
     background-color: rgba(92, 92, 92, 0.125);
 }
 
+/* call button */
 .card-btn-call {
     padding: 12px 65px;
     border: none;
@@ -327,7 +331,7 @@ h3 {
     background: rgba(0, 166, 61, 0.85);
 }
 
-/* cards */
+/* cards section mobile responsive */
 @media screen and (max-width: 576px) {
     .card-section {
         padding: 12px 20px 32px 20px;
@@ -373,12 +377,10 @@ h3 {
         font-size: 10px;
         padding: 3px 12px;
         border-radius: 24px;
-
     }
 
-    .card-btns{
+    .card-btns {
         display: block;
-
     }
 
     .card-btn-copy {
@@ -401,7 +403,7 @@ h3 {
     }
 }
 
-/* history */
+/* call history */
 .history {
     width: 22%;
     background-color: #FFFFFF;
@@ -412,6 +414,7 @@ h3 {
     box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.15);
 }
 
+/* call history title */
 .history-header {
     display: flex;
     justify-content: space-between;
@@ -425,6 +428,7 @@ h3 {
     color: #111111;
 }
 
+/* call history clear button */
 .clear-btn {
     padding: 11px 35px;
     color: #FFFFFF;
@@ -439,6 +443,7 @@ h3 {
     background-color: #FFFFFF;
 }
 
+/* call history messege */
 .history-contant {
     display: flex;
     justify-content: space-between;
@@ -460,7 +465,7 @@ h3 {
     color: #5C5C5C;
 }
 
-/* history monile */
+/* call history monile responsive */
 @media screen and (max-width: 576px) {
     .history {
         width: calc(100% - 32px);

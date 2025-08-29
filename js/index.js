@@ -1,5 +1,4 @@
-
-
+// favourite button funtion
 const heartClicks = document.getElementsByClassName('heart-click');
 
 for (const heartClick of heartClicks) {
@@ -11,6 +10,9 @@ for (const heartClick of heartClicks) {
     })
 }
 
+
+// call button funtion
+// call history funtion
 const histoyData = [];
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -41,15 +43,16 @@ document.addEventListener('DOMContentLoaded', function () {
                 date: new Date().toLocaleString(),
             };
 
-            histoyData.push(data); 
+            histoyData.push(data);
 
             const historyContainer = document.getElementById('history-messege');
-            historyContainer.innerText = '';  // Clear existing history
+
+            historyContainer.innerText = '';
 
             for (const data of histoyData) {
                 const div = document.createElement('div');
-                div.innerHTML = `
-                    <div class="history-contant">
+                div.innerHTML =
+                    `<div class="history-contant">
                         <div>
                             <h1 class="history-contant-title">${data.name}</h1>
                             <p class="history-contant-number">${data.number}</p>
@@ -57,26 +60,29 @@ document.addEventListener('DOMContentLoaded', function () {
                         <div>
                             <p>${data.date}</p>
                         </div>
-                    </div>
-                `;
+                    </div>`;
+
                 historyContainer.appendChild(div);
             }
         });
     }
 });
 
+
+// call history clear button funtion
 const clearBtn = document.querySelector('.clear-btn');
+
 if (clearBtn) {
     clearBtn.addEventListener('click', function () {
         histoyData.length = 0;
 
         const historyContainer = document.getElementById('history-messege');
-        historyContainer.innerHTML = '';  
+        historyContainer.innerHTML = '';
     });
 }
 
 
-
+// copy button funtion
 const copyClicks = document.getElementsByClassName('copy-clicks');
 
 for (const copyClick of copyClicks) {
@@ -84,7 +90,6 @@ for (const copyClick of copyClicks) {
         const copyCount = parseInt(document.getElementById('copy-count').innerText);
 
         const card = copyClick.closest('.cards');
-
         const number = card.querySelector('.card-text3').innerText;
 
         alert(`The number has been copied: ${number}.`);
@@ -95,41 +100,3 @@ for (const copyClick of copyClicks) {
         document.getElementById('copy-count').innerText = newCopyCount;
     });
 }
-
-
-const callBtns = document.getElementById('card-btn-call');
-
-for (const callBtn of callBtns) {
-    callBtn.addEventListener('click', function () {
-        document.getElementsByClassName('hiscard-call-btn').addEventListener('click', function () {
-            const historyContainer = document.getElementById('x');
-            historyContainer.innerText = '';
-
-            for (const data of histoyData) {
-                const div = document.createElement('div');
-                div.innerHTML = `
-       <div class="history-contant">
-                        <div>
-                            <h1 class="history-contant-title">${data.name}</h1>
-                            <p class="history-contant-number">${data.number}</p>
-                        </div>
-                        <div>
-                            <p>${data.date}</p>
-                        </div>
-                    </div>
-        `
-                historyContainer.appendChild(div);
-
-            }
-        })
-    })
-}
-
-
-
-
-
-
-
-
-
